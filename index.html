@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyeonwook Links & Music</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: url('https://raw.githubusercontent.com/Lyson-Lee/Background/main/Background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+      margin: 0;
+      color: white;
+    }
+   
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      text-align: center;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+
+    .bio {
+      font-size: 14px;
+      margin-bottom: 30px;
+      text-align: center;
+      max-width: 350px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .profile {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.4);
+      margin-bottom: 20px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    .link-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      max-width: 400px;
+      margin: 10px 0;
+      padding: 14px;
+      text-decoration: none;
+      color: white;
+      background: rgba(0,0,0,0.35);
+      border-radius: 12px;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      backdrop-filter: blur(4px);
+    }
+
+    .link-button img {
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+      filter: brightness(0) invert(1);
+    }
+
+    .link-button:hover {
+      background: rgba(255,255,255,0.2);
+      transform: scale(1.05);
+    }
+
+    .player-container {
+      width: 80%;
+      max-width: 400px;
+      margin: 25px 0;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.35);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.7);
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 26px; }
+      .bio { font-size: 13px; }
+      .link-button { font-size: 16px; padding: 12px; }
+      .link-button img { width: 20px; height: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Profile -->
+  <img class="profile" src="https://raw.githubusercontent.com/Lyson-Lee/Background/main/Apple%20Music%20Cover%20Image.jpg" alt="Profile">
+
+  <h1>Hyeonwook Links & Music</h1>
+
+  <!-- Bio -->
+  <div class="bio">
+    Music producer and creator.<br>
+    Sharing music and links for easy access. 🎵
+  </div>
+
+  <!-- Spotify Player -->
+  <div class="player-container">
+    <iframe
+      style="border-radius:12px; width:100%; height:352px;"
+      src="https://open.spotify.com/embed/album/61W5ZYy8lQFs6X1GhPxwXc?utm_source=generator"
+      frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- Buttons -->
+  <a class="link-button" href="https://open.spotify.com/artist/2VFlyhFasgv0ilmmg9feUW" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/spotify.svg">
+    Spotify
+  </a>
+
+  <a class="link-button" href="https://music.apple.com/kr/artist/hyeon-wook-lee/347009861?l=en-GB" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/applemusic.svg">
+    Apple Music
+  </a>
+
+  <a class="link-button" href="https://www.melon.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/Lyson-Lee/Background/main/melon_fruit_food_icon_175737.svg?raw=true">
+    Melon
+  </a>
+
+  <a class="link-button" href="https://www.instagram.com/its_hyeonwook_95/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg">
+    Instagram
+  </a>
+
+  <a class="link-button" href="mailto:lyson9508@gmail.com" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg">
+    Business Mail
+  </a>
+
+  <footer>
+    © 2025 Hyeonwook Lee
+  </footer>
+
+</body>
+</html>
